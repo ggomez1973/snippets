@@ -15,7 +15,7 @@ public class Lecture11 {
     for (String name : names){
       join+=name + ",";
     }
-    System.out.println(join.substring(0, join.length()-2));
+    System.out.println(join.substring(0, join.length()-1));
   }
 
   @Test
